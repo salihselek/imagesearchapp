@@ -3,5 +3,6 @@ package com.example.imagesearchapp.api
 import com.example.imagesearchapp.data.UnsplashPhoto
 
 data class UnsplashResponse(
-    val results: List<UnsplashPhoto>
+    val results: List<UnsplashPhoto>,
+    val result3:String = ""
 )
